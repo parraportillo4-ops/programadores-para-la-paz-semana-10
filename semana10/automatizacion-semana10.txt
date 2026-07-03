@@ -1,0 +1,21 @@
+Describe un flujo simple de automatización usando n8n y Telegram.
+
+Debe responder estas preguntas:
+
+¿Qué evento activa el flujo?
+¿Qué mensaje se enviaría a Telegram?
+¿Qué información no debería enviarse por seguridad?
+
+Evento que activa el flujo: se dispara cuando un nuevo reporte de
+incidencia se registra en la base de datos.
+
+Acción: n8n procesa los datos, filtra campos sensibles, construye un
+mensaje resumido y envía el mensaje al chat de Telegram.
+
+Mensaje: ¨primeros 100 caracteres de la descripción¨
+
+Información que no debe enviarse: no  se deben incluir nombres
+completos del denunciante, número de cédula, dirección exacta
+(solo sector o coordenadas generales), teléfono de contacto, correo
+electrónico personal, ni ningún dato que permita identificar o localizar
+directamente a la persona.

@@ -1,0 +1,21 @@
+Escribe entre 3 y 5 historias de usuario relacionadas con una solución
+comunitaria o de veeduría:
+
+1. Como ciudadano, quiero registrar una incidencia con foto y ubicación
+de modo que mi reporte quede como evidencia verificable ante la veeduría.
+
+2. Como coordinador, quiero recibir una alerta en Telegram con los datos
+clave de cada nuevo reporte para poder asignarlo en el menor tiempo
+posible.
+
+3. Como miembro del equipo, quiero consultar el historial de reportes por
+estado (abierto, en proceso, resuelto) para hacer seguimiento sin
+depender de reuniones.
+
+4. Como ciudadano, quiero recibir una notificación automática cuando mi
+reporte cambie de estado para sentir que mi participación tiene
+respuesta.
+
+5. Como administrador, quiero que el sistema genere un resumen semanal de
+incidentes por zona para priorizar recursos en la reunión de iteración.
+

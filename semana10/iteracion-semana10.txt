@@ -1,0 +1,28 @@
+Responde:
+
+¿Qué 2 tareas del backlog harías primero?
+
+Implementar el formulario de registro de incidencias con validación de
+campos obligatorios (foto, ubicación, descripción).
+
+Configurar el webhook que envía la alerta a Telegram al coordinador
+cuando se crea un nuevo reporte.
+
+¿Por qué son las más importantes?
+
+Ambas son la puerta de entrada del flujo completo; el resto de historias
+dependen de que estas dos funcionen primero: sin el registro no hay
+datos, y sin la alerta el coordinador no reacciona a tiempo.
+
+¿Qué significa para ti que una tarea esté “terminada”?
+Escribe una definición simple de terminado con al menos 3 criterios.
+
+La funcionalidad pasa las pruebas locales y de integración sin errores
+críticos.
+
+Queda documentada en el repositorio (código comentado y actualizado en
+el README).
+
+Está desplegada en el entorno de pruebas y ha sido validada por al menos
+un miembro del equipo distinto al que la desarrolló.
+
